@@ -8,6 +8,7 @@ body {
     padding: 0;
 }
 
+
 /*HEADER */
 
 header {
@@ -15,7 +16,7 @@ header {
     padding: 0;
     width: 100vw;
     height: 10vh;
-    background-color: rgb(230, 202, 156);
+    background-color: rgb(212, 65, 60);
     position: sticky;
     display: flex;
     top: 0%;
@@ -53,3 +54,38 @@ header {
 /*main*/
 
 /*FOOTER*/
+h4 {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    padding: 20px 0;
+    align-content: flex-end;
+    position: absolute;
+    bottom: 0;
+}
+
+.contenidoFooter {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 30px;
+    margin-top: 0;
+}
+
+.sobreNosotros {
+    width: 60%;
+    padding: 0 20px ;
+}
+
+.redes {
+    padding: 0 20px ;
+}
+
+.direccion {
+    padding: 0 20px ;
+}
+
